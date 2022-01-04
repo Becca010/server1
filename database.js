@@ -55,7 +55,7 @@ db.run(sql,(err) => {
 //   });
 
   //export as module, called db
-  module.exports = db
+  module.exports = db;
 
 
 
