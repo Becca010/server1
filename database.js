@@ -42,12 +42,12 @@ db.run(sql,(err) => {
   db.run(insert, ['Algorithms and Data Types']);
 });
 
-db.close((err) =>{
-  if(err){
-    return console.error(err.message);
-  }
-  console.log('close the database connection.');
-  });
+// db.close((err) =>{
+//   if(err){
+//     return console.error(err.message);
+//   }
+//   console.log('close the database connection.');
+//   });
 
   //export as module, called db
   module.exports = db
